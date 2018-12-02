@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+
+	"name": "The TVDB",
+	"description": "Fetch Anime information from TheTVDB",
+	"version": "1.1",
+	"homepage_url": "https://github.com/Loli-Killer/thetvdb-extension",
+	"icons": {
+		"16": "icon_16.png",
+		"48": "icon_48.png",
+		"128": "icon_128.png"
+	},
+	"permissions": [
+		"tabs",
+		"https://www.thetvdb.com/",
+		"https://api.thetvdb.com/"
+	],
+	"browser_action": {
+		"default_title": "Search for an Anime on TVDB",
+		"default_popup": "popup.html"
+	}
+}
